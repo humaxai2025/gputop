@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cargo check:*)",
+      "Bash(cargo build:*)",
+      "Bash(cargo clean:*)",
+      "Bash(timeout 5 cargo run)",
+      "Bash(true)",
+      "Bash(timeout 8 cargo run)",
+      "Bash(timeout 6 cargo run)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  }
+}
